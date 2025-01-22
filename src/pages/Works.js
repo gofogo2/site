@@ -145,7 +145,7 @@ export default function Works() {
             </div>
 
             {/* Dot 인디케이터 */}
-            <div className="fixed right-8 top-40 z-40 flex flex-col gap-3">
+            <div className="fixed right-0 top-40 z-40 flex flex-col gap-3  px-8 py-1">
                 {projects.map((project, index) => (
                     <button
                         key={index}
